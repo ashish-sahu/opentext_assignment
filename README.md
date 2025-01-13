@@ -7,6 +7,7 @@ This repository contains solutions for various programming tasks, including a Su
 ```
 project2_vulnerabilities/
     project2.c
+ExprSolver_round2.java
 README.md
 SudokuSolver.java
 TestCase.java
@@ -27,6 +28,13 @@ project2.c
 
 
 This C file contains several functions that demonstrate common vulnerabilities, such as buffer overflows, memory leaks, and unsafe string handling. The vulnerabilities are annotated with comments.
+
+###
+
+ExprSolver_round2.java
+
+This Java file contains expression solver implementation . It evaluates the given expresssion and print values of each variable.
+
 
 ### 
 
@@ -57,6 +65,12 @@ project2_vulnerabilities
 ```sh
 gcc project2.c -o project2
 ./project2
+```
+
+### Running the ExprSolver_round2
+```sh
+javac ExprSolver_round2.java
+java ExprSolver_round2
 ```
 
 ### Running the Sudoku Solver
